@@ -19,11 +19,16 @@ Download and install the application
 Run the docker image
 ::::::::::::::::::::
 
-.. code-block::
+.. code-block:: shell
 
     docker run --restart=always --name=commonaccord -p 3000:3000 commonaccord/application
 
 Clone the git repository
 ::::::::::::::::::::::::
 
-todo
+.. code-block:: shell
+
+    git clone https://github.com/DevelAccord/Application.git CommonAccord-Application
+    cd CommonAccord-Application
+    npm install
+    npm start
